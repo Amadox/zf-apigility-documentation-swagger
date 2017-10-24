@@ -22,7 +22,7 @@ class Service extends BaseService
     public function __construct(BaseService $service, $baseUrl)
     {
         $this->service = $service;
-        $this->baseUrl = $baseUrl;
+        $this->baseUrl = $baseUrl . '/api';
     }
 
     /**
